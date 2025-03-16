@@ -38,3 +38,6 @@ The **OSI (Open Systems Interconnection) model** is a conceptual framework used 
 - Helps understand how different networking protocols interact.
 - Assists in troubleshooting by isolating issues at specific layers.
 - Provides a universal standard for networking communication.
+
+  
+![Alt text](https://github.com/yosefther/network-concepts/blob/main/asset/OSI.PNG)
