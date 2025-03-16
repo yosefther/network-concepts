@@ -8,8 +8,6 @@ This repository contains resources, notes, and examples to help you understand k
 - Routing
 -TCP/IP Model
 - Networking Protocols
-- Getting Started
-- Clone this repository to your local machine:
 
 ## Contributing
 Feel free to contribute by opening issues or submitting pull requests to improve the content. All contributions are welcome! <3
