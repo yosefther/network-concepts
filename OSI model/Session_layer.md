@@ -34,4 +34,4 @@ The **Session Layer** is the fifth layer in the OSI model, responsible for estab
 
 ## Summary
 The Session Layer plays a crucial role in maintaining stable and secure connections between applications. It manages session establishment, synchronization, and recovery while enabling efficient data exchange.
-\
+
