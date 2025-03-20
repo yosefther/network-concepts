@@ -10,7 +10,10 @@ This repository contains resources, notes, and examples to help you understand k
 - Networking Protocols
 
 # Search for topic
-- [OSI model folder and every layer in some depth](https://github.com/yosefther/network-concepts/tree/main/OSI%20model)
+### [OSI model folder and every layer in some depth](https://github.com/yosefther/network-concepts/tree/main/OSI%20model)
+### [network devices](https://github.com/yosefther/network-concepts/tree/main/Networking%20Devices)
+- [router](https://github.com/yosefther/network-concepts/blob/main/Networking%20Devices/router.md)
+- [modem](https://github.com/yosefther/network-concepts/blob/main/Networking%20Devices/modem.md)
 
 # Contributing
 Feel free to contribute by opening issues or submitting pull requests to improve the content. All contributions are welcome! <3
