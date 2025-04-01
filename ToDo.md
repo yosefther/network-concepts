@@ -2,3 +2,4 @@
 - [ ] edit readme file **add find_topic section**
 - [ ] add DHCP.md
 - [ ] use laTex for tools and osi_overview
+- [ ] learn about headers (time to live ,checksum ,source address, destinathion address, etc.. )
