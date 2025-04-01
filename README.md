@@ -1,7 +1,7 @@
 # Network Concepts
 This repository contains resources, notes, and examples to help you understand key networking principles and protocols. Whether you're new to networking or looking to reinforce your knowledge, this collection provides a solid foundation.
 
-- Topics Covered
+**Topics Covered**
 - IP Addressing
 - Subnetting
 - DNS
