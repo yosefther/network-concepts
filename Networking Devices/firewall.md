@@ -1,6 +1,6 @@
 # Firewall
 
- **firewall** is a security system designed to monitor and control incoming and outgoing network traffic based on predetermined security rules. Firewalls can be either hardware or software-based, and they are commonly used to protect networks from unauthorized access or threats.
+**Firewall** is a security system designed to monitor and control incoming and outgoing network traffic based on predetermined security rules. Firewalls can be either hardware or software-based, and they are commonly used to protect networks from unauthorized access or threats.
 
 ## What is a Firewall?
 A firewall serves as a barrier between a trusted internal network and untrusted external networks, such as the internet. It monitors network traffic and can permit or block data transmissions based on a set of security rules. Firewalls are essential for protecting sensitive data and ensuring that only authorized traffic can enter or leave the network.
@@ -11,7 +11,7 @@ A firewall serves as a barrier between a trusted internal network and untrusted 
 A packet-filtering firewall examines network packets (units of data) and makes decisions based on predefined rules, such as the packet's source IP address, destination IP address, and port number. If a packet matches the rule, it is either allowed or denied access. This type of firewall is efficient but lacks deeper inspection features.
 
 ### 2. **Stateful Inspection Firewall**
-Stateful firewalls track the state of active connections and use this context to determine whether a packet should be allowed. This is a more secure option than a simple packet filter since it can evaluate packets within the context of a session. 
+Stateful firewalls track the state of active connections and use this context to determine whether a packet should be allowed. This is a more secure option than a simple packet filter since it can evaluate packets within the context of a session.
 
 ### 3. **Proxy Firewall**
 A proxy firewall operates by acting as an intermediary between a client and a server. It intercepts requests and responses, analyzes them, and makes decisions based on content and other parameters. Proxy firewalls provide an extra layer of security by hiding the true identity of the internal network.
@@ -21,6 +21,22 @@ NGFWs combine the features of traditional firewalls with additional features lik
 
 ### 5. **Web Application Firewall (WAF)**
 A WAF specifically protects web applications by filtering and monitoring HTTP/HTTPS traffic. It is designed to block attacks such as SQL injection, cross-site scripting (XSS), and other vulnerabilities that can affect web applications.
+
+## Firewall Categories
+
+### Stateful
+This type of firewall uses the entire information from a connection; rather than inspecting an individual packet, this firewall determines the behaviour of a device based upon the entire connection.
+
+This firewall type consumes many resources in comparison to stateless firewalls as the decision making is dynamic. For example, a firewall could allow the first parts of a TCP handshake that would later fail.
+
+If a connection from a host is bad, it will block the entire device.
+
+### Stateless
+This firewall type uses a static set of rules to determine whether or not individual packets are acceptable or not. For example, a device sending a bad packet will not necessarily mean that the entire device is then blocked.
+
+Whilst these firewalls use much fewer resources than alternatives, they are much dumber. For example, these firewalls are only effective as the rules that are defined within them. If a rule is not exactly matched, it is effectively useless.
+
+However, these firewalls are great when receiving large amounts of traffic from a set of hosts (such as a Distributed Denial-of-Service attack).
 
 ## How Firewalls Work
 Firewalls use rules or policies to determine which traffic should be allowed or blocked. These rules are based on criteria such as:
@@ -62,9 +78,3 @@ Firewalls are widely used for various purposes in both small and large organizat
 3. **Content Filtering**: Blocking access to harmful websites or applications.
 4. **VPN Security**: Securing remote connections to a private network via Virtual Private Networks (VPNs).
 5. **Compliance**: Ensuring compliance with regulations like PCI-DSS, HIPAA, and GDPR by controlling access to sensitive data.
-
-## Conclusion
-Firewalls are a critical component of any network security strategy, acting as a protective barrier between internal networks and external threats. By understanding the different types of firewalls, how they work, and their configurations, organizations can effectively safeguard their networks against unauthorized access and cyberattacks.
-
-Firewalls are constantly evolving, with new features such as deep packet inspection, intrusion prevention systems, and machine learning being integrated into next-generation firewalls (NGFWs) to provide more robust protection.
-
