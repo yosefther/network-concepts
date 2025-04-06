@@ -5,3 +5,4 @@
 - [ ] learn about headers (time to live ,checksum ,source address, destinathion address, etc.. )
 - [x] add VPN protocol
 - [ ] add info about DAS spoofing and DNS security  
+- [ ] add steps to make a requst in DNS in more details  
