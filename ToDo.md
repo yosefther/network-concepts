@@ -6,4 +6,6 @@
 - [x] add VPN protocol
 - [ ] add info about DAS spoofing and DNS security  
 - [ ] add steps to make a requst in DNS in more details
-- [ ] add CDN 
+- [ ] add CDN
+- [ ] add Load Balancers
+- [ ] add WAF
